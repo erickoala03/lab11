@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class NumericConversion {
-
+// another change for grade
     public static short hexCharDecode(char c) {
  short value = 0; // this value is intialized at zero at to reset to them.
 
@@ -84,13 +84,13 @@ return (short) dec;
                 System.out.println("2. Decode binary");
                 System.out.println("3. Convert binary to hexadecimal");
                 System.out.println("4. Quit");
-                System.out.println("Please enter an option: ");
+                System.out.println("Please hack an option: ");
                 option = scnr.nextInt();
 
                 switch (option) {
 
                     case 1:
-                        System.out.println("Please dont the numeric string to convert: ");
+                        System.out.println("Please dont the change string to convert: ");
                         String hex = scnr.next();
                         System.out.println("Result: " +  hexStringDecode(hex));
                         break;
