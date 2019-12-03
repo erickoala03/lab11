@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class NumericConversion {
 
-
     public static short hexCharDecode(char c) {
  short value = 0; // this value is intialized at zero at to reset to them.
 
@@ -91,7 +90,7 @@ return (short) dec;
                 switch (option) {
 
                     case 1:
-                        System.out.println("Please enter the numeric string to convert: ");
+                        System.out.println("Please dont the numeric string to convert: ");
                         String hex = scnr.next();
                         System.out.println("Result: " +  hexStringDecode(hex));
                         break;
